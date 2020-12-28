@@ -17,7 +17,7 @@ Verwendungsbeispiel in externen Skripten:
 ```javascript
 const feiertag = require('/home/nodejs/feiertag/app')
   if (feiertag.start(undefined, 'HH')) {
-  console.log('Ausführung wegen Feiertag ausgesetzt')
-  return
+   console.log('Ausführung wegen Feiertag ausgesetzt')
+   return
   }
 ```
