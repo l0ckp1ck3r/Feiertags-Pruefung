@@ -1,4 +1,4 @@
-# Feiertags-Pruefung
+# Feiertags-Prüfung
 
 Das Skript prüft ein Moment-Datum bundesweit oder für ein Bundesland auf Feiertag.
 (Die Daten basieren auf https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland)
@@ -14,10 +14,9 @@ Aufrufsbeispiele
   me.start(moment('2020-05-01', 'SN'))    => fragt den 01.05.2020 für das BUndesland Sachsen nach einem Feiertag ab
  
 Verwendungsbeispiel in externen Skripten:
-```javascript
-const feiertag = require('/home/nodejs/feiertag/app')
-  if (feiertag.start(undefined, 'HH')) {
-   console.log('Ausführung wegen Feiertag ausgesetzt')
-   return
-  }
-```
+
+    const feiertag = require('/home/nodejs/feiertag/app')
+    if (feiertag.start(undefined, 'HH')) {
+     console.log('Ausführung wegen Feiertag ausgesetzt')
+     return
+    }
