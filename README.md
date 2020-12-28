@@ -4,8 +4,8 @@ Das Skript prüft ein Moment-Datum bundesweit oder für ein Bundesland auf Feier
 (Die Daten basieren auf https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland)
  
 Die möglichen Rückgabewert sind 
-* false => wenn kein Feiertag vorliegt
-* Feiertags-Name => wenn ein Feiertag vorliegt
+* false *wenn kein Feiertag vorliegt*
+* Feiertags-Name *wenn ein Feiertag vorliegt*
 
 **Aufrufsbeispiele**
 * me.start() *fragt das heutige Datum nach einem bundesweiten Feiertag ab*
