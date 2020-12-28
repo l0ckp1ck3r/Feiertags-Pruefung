@@ -7,7 +7,7 @@ Die möglichen Rückgabewert sind
 * false => wenn kein Feiertag vorliegt
 * Feiertags-Name => wenn ein Feiertag vorliegt
 
-Aufrufsbeispiele
+__Aufrufsbeispiele__
 * me.start() => fragt das heutige Datum nach einem bundesweiten Feiertag ab
 * me.start(moment('2020-12-25')) => fragt den 25.12.2020 nach einem bundesweiten Fertag ab
 * me.start(undefined, 'HH') => fragt das heutige Datum für das Bundesland Hamburg nach einem Feiertag ab
