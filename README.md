@@ -8,10 +8,10 @@ Die möglichen Rückgabewert sind
 * `Feiertags-Name` *wenn ein Feiertag vorliegt*
 
 **Aufrufsbeispiele**
-* me.start() *fragt das heutige Datum nach einem bundesweiten Feiertag ab*
-* me.start(moment('2020-12-25')) *fragt den 25.12.2020 nach einem bundesweiten Fertag ab*
-* me.start(undefined, 'HH') *fragt das heutige Datum für das Bundesland Hamburg nach einem Feiertag ab*
-* me.start(moment('2020-05-01', 'SN')) *fragt den 01.05.2020 für das Bundesland Sachsen nach einem Feiertag ab*
+* `me.start()` *fragt das heutige Datum nach einem bundesweiten Feiertag ab*
+* `me.start(moment('2020-12-25'))` *fragt den 25.12.2020 nach einem bundesweiten Fertag ab*
+* `me.start(undefined, 'HH')` *fragt das heutige Datum für das Bundesland Hamburg nach einem Feiertag ab*
+* `me.start(moment('2020-05-01', 'SN'))` *fragt den 01.05.2020 für das Bundesland Sachsen nach einem Feiertag ab*
  
 Verwendungsbeispiel in externen Skripten:
 
