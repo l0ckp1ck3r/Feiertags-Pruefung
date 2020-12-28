@@ -14,9 +14,10 @@ Aufrufsbeispiele
   me.start(moment('2020-05-01', 'SN'))    => fragt den 01.05.2020 für das BUndesland Sachsen nach einem Feiertag ab
  
 Verwendungsbeispiel in externen Skripten:
-    const feiertag = require('/home/nodejs/feiertag/app')
-    if (feiertag.start(undefined, 'HH')) {
-        console.log('Ausführung wegen Feiertag ausgesetzt')
-        return
-    }
- 
+<code>
+const feiertag = require('/home/nodejs/feiertag/app')
+  if (feiertag.start(undefined, 'HH')) {
+  console.log('Ausführung wegen Feiertag ausgesetzt')
+  return
+  }
+ </code>
